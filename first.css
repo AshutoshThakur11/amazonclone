@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 150px;
+}
+
+.logo {
+    background-image: url("amazon-logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+
+.add-icon {
+    display: flex;
+    /* align-items: center; */
+}
+
+.add-first {
+    color: #cccccc;
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+
+.add-second {
+    margin-left: 2px;
+}
+
+.address {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* background-color:  red; */
+}
+
+/* box 3 */
+.nav-search {
+    display: flex;
+    width: 620px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 4px;
+    /* justify-content: space-evenly; */
+    align-self: center;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.select-search {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-bar {
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3;
+}
+
+/* box 4 */
+
+.language {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.lang {
+    display: flex;
+}
+
+/* box 5 */
+
+.span {
+    font-size: 0.7rem;
+}
+
+.boxx {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+.cart i {
+    font-size: 30px;
+}
+
+.cart {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* panel   --box 1 */
+
+.panel {
+    background-color: #222f3d;
+    height: 39px;
+    display: flex;
+    align-content: center;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-option p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-option {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* hero section */
+
+.hero-section {
+    background-image: url("amazon-hero-image.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-massg {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin: left 15px;
+    align-items: center;
+    font-size: 14px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.hero-massg-line a {
+    color: #007185;
+}
+
+/* shop section  */
+
+.shop-section {
+    background-color: #f891e7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* height: 450px; */
+}
+
+.box {
+    height: 430px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-image {
+    height: 360px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1-image {
+    /* width: 23%;
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px; */
+
+    height: 120px;
+    width: 120px;
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.box1-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box1-content p {
+    margin-top: 45px;
+    color: #007185;
+}
+
+.box11-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 59px; */
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.shop-panel {
+    display: flex;
+    justify-content:  space-evenly;
+    flex: 1;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
